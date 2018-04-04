@@ -27,7 +27,7 @@ Let us take a simple to explain what Dictionary or `Dict` is
 
 ```python
 
-python_class = {"student": ["Alice", "Bob", "Chris"]; "occupation": ["student", "marketer", "researcher"]; "Age": [20, 27, 35]}
+python_class = {"Name": ["Alice", "Bob", "Chris"]; "occupation": ["student", "marketer", "researcher"]; "Age": [20, 27, 35]}
 
 print(python_class)
 ```
@@ -51,4 +51,17 @@ print(python_class)
 for key, value in python_class.items():
   print("\n Key" + key)
   print("\n Value" + value)
+```
+
+
+```python
+class PyLadiesWorkshop:
+    def __ini__(self):
+        None
+    def get_name(self):
+        None
+    def get_occupation(self):
+        None
+    def get_age(self):
+        None
 ```
