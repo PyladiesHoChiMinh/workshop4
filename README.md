@@ -26,31 +26,47 @@ Hello,
 Let us take a simple to explain what Dictionary or `Dict` is
 
 ```python
-
-python_class = {"Name": ["Alice", "Bob", "Chris"]; "occupation": ["student", "marketer", "researcher"]; "Age": [20, 27, 35]}
+"""
+Example of a Dictionary with a variable named `python_class`.
+"""
+python_class = {"Name": ["Alice", "Bob", "Chris"], "Occupation": ["student", "marketer", "researcher"], "Age": [20, 27, 35]}
 
 print(python_class)
 ```
-
+##### How to access values
 ```python
 print(python_class["student"])
 print(python_class["student"][0])
 ```
 
 ```python
-python_class["Year of Experience"] = "Less than a year"
-print(python_class)
+python_class.values() # Return an object Dictionary_values, e.g. dict_values([key1, key2])
 ```
 
 ```python
-del python_class["Year of Experience"]
+python_class.keys() # Return an object of Dictionary keys, e.g. dict_keys([key1, key2])
+```
+
+```python
+python_class.items() # Return an object of Dictionary item, e.g. dict_items([(key1, value1), (key2, value2)])
+```
+
+** Why dict_items, dict_values, dict_values? **
+
+##### How to add/ remove new key-value pairs
+```python
+python_class["Year of Experience"] = "Less than a year" #Add a value.
+print(python_class)
+
+del python_class["Year of Experience"] #Remove keys and values.
 print(python_class)
 ```
 
+#### How to work with Dictionary
 ```python
 for key, value in python_class.items():
-  print("\n Key" + key)
-  print("\n Value" + value)
+  print("\n Key %s" % key)
+  print("\n Value %s" % value)
 ```
 
 
