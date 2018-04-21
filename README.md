@@ -77,18 +77,3 @@ for key, value in workshop_attendee.items():
   print("\n Key %s" % key)
   print("\n Value %s" % value)
 ```
-
-```python
-"""
-An example of a Python Class
-"""
-class PyLadiesWorkshop(object):
-    def __ini__(self):
-        None
-    def get_name(self):
-        None
-    def get_occupation(self):
-        None
-    def get_age(self):
-        None
-```
